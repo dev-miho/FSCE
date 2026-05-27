@@ -13,3 +13,4 @@ Your task is to implement the movement of the person (and thus the pushing of th
 
 
 
+ ![diagram](pomestuvanje_kutii.png)
