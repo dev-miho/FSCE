@@ -4,6 +4,8 @@ The person can move in four directions: up, down, left, and right by one positio
 While moving, if there is a box in front of them, they can push the box in the direction in which they are moving.
 A box cannot be pulled, only pushed. Only one box may occupy a single position.
 
+![diagram](pomestuvanje_kutii.png)
+
 For all test cases, the size of the board is the same, while the positions of the person and the boxes vary and are read from standard input.
 Your task is to implement the movement of the person (and thus the pushing of the boxes) in the successor function, such that the action for moving the person up is tried first, then down, left, and right. 
   The actions are named “Move man up/down/left/right” if the man is moved, or “Push box 1/2 up/down/left/right” if, while moving the person, one of the boxes is also pushed. 
@@ -13,4 +15,4 @@ Your task is to implement the movement of the person (and thus the pushing of th
 
 
 
- ![diagram](pomestuvanje_kutii.png)
+ 
