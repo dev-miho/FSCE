@@ -15,4 +15,10 @@ Your task is to implement the movement of the person (and thus the pushing of th
 
 
 
- 
+ ### Test Case 1
+- Input: `2 3`
+- Output: `5`
+
+### Test Case 2
+- Input: `10 5`
+- Output: `15`
