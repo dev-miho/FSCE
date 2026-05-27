@@ -27,4 +27,11 @@ Your task is to implement the movement of the person (and thus the pushing of th
 3,4`
 - Output: `['Move man up', 'Move man up', 'Push box 1 up', 'Move man left', 'Move man left', 'Move man up', 'Push box 2 right']`
 
+### Test Case 3
+- Input: `4,2
+2,2
+2,4`
+- Output: `['Move man up', 'Move man left', 'Move man left', 'Move man left', 'Move man up', 'Push box 2 right', 'Push box 2 right', 'Move man down', 'Move man down', 'Move man down', 'Move man left', 'Push box 1 up', 'Push box 1 up', 'Move man left', 'Move man up', 'Push box 1 right', 'Push box 1 right']
+['Move man up', 'Move man left', 'Move man left', 'Move man left', 'Move man up', 'Push box 2 right', 'Push box 2 right', 'Move man down', 'Move man down', 'Move man down', 'Move man left', 'Push box 1 up', 'Push box 1 up', 'Move man left', 'Move man up', 'Push box 1 right', 'Push box 1 right']`
+
 
