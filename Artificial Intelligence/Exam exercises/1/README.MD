@@ -16,9 +16,10 @@ Your task is to implement the movement of the person (and thus the pushing of th
 
 
  ### Test Case 1
-- Input: `2 3`
-- Output: `5`
+- Input: `0,0
+          2,2
+          3,3`
+- Output: `['Move man up', 'Move man up', 'Move man right', 'Push box 1 right', 'Push box 1 right', 'Push box 2 up', 'Move man down', 'Move man down', 'Move man right', 'Push box 1 up', 'Push box 1 up', 'Move man left', 'Move man left', 'Move man up', 'Push box 2 right']
+`
 
-### Test Case 2
-- Input: `10 5`
-- Output: `15`
+
