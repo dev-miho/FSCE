@@ -12,4 +12,4 @@ Your task is to implement the movement of the person (and thus the pushing of th
     You should apply uninformed search to find a solution with the minimum number of steps.
 
 
-![diagram](Artificial Intelligence/Exam exercises/Images/pomestuvanje_kutii.png)
+
