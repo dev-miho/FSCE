@@ -10,3 +10,6 @@ Your task is to implement the movement of the person (and thus the pushing of th
     Additionally, you need to check whether the goal has been reached, that is, to implement the goal_test function, and to check whether the state is valid, that is, to implement the check_valid function. 
     The problem state is stored in a tuple where the elements are the x and y positions of the person and the boxes. For example, the initial state in Figure 1 would be ((0, 0), (2, 2), (3, 3)). 
     You should apply uninformed search to find a solution with the minimum number of steps.
+
+
+![diagram](FSCE/Artificial Intelligence/Exam exercises/Images/image.png)
