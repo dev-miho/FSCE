@@ -1,0 +1,3 @@
+You are given a dataset for cryotherapy treatments. All attributes in the dataset are continuous, and it may be assumed that they follow a continuous distribution. Your task is to train a Naive Bayes classifier that will predict whether the therapy is successful or not (1 and 0) using the first 85% of the given dataset. Then, you need to calculate the accuracy obtained on the remaining 15% of the dataset and make predictions for records received as input.
+
+The initial code already contains the dataset. The input consists of a single record for which a class prediction should be made. The output should print the model accuracy, the predicted class, as well as the probabilities of belonging to each class.
