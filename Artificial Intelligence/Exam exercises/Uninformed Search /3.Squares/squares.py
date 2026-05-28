@@ -373,24 +373,23 @@ class Squares(Problem):
 
     def successor(self, state):
         succ = {}
-
+        squares=state
         directions={
             "up":(0,1),
             "down":(0,-1),
-            "left":(-1,0),
             "right":(1,0),
-
+            "up-right":(1,1),
+            "down-right":(1,-1),
         }
-        for i in range(len(state)):
+        for i in range(len(squares)):
             square=state[i]
             for direction,(x,y) in directions.items():
                 new_square=(square[0]+x,square[1]+y)
-                new_state=list(state)
-                new_state[i]=new_square
-                new_state=tuple(new_state)
-                if self.check_valid(new_state):
-                    succ[f"Move square {i+1} {direction}"]=new_state
-
+                tmp_squares=list(squares)
+                tmp_squares[i]=new_square
+                new_squares=tuple(tmp_squares)
+                if self.check_valid(new_squares):
+                    succ[f"Move square {i+1} {direction}"]=new_squares
 
         return succ
 
