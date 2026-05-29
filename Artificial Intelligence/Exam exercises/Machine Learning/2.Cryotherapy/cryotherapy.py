@@ -1,6 +1,7 @@
 import os
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 from sklearn.naive_bayes import GaussianNB
+
 import sys
 
 if __name__ == '__main__':
