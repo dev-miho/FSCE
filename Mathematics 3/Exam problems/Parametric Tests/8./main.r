@@ -11,7 +11,7 @@ alpha<-0.05
 result<-var.test(x,y,alternative="greater",conf.level=(1-alpha))
 result$statistic #1.636122
 result$p.value #0.1972086
-result$p.value < alpha #TRUE
+result$p.value < alpha #FALSE
 
 #Since the p-value is greater than alpha,we do not reject the null hypothesis.
 #Conclusion:There is not enough evidence to support the claim that the variance of the amount of protein in a meal prepared using the new recipe is smaller than the variance of the amount of protein in a meal prepared using the current recipe.
