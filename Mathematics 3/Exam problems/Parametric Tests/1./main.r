@@ -13,17 +13,17 @@ alpha=0.05
 
 result<-z.test(x,mu=mu,sigma.x=sigma,alternative='two.sided',conf.level=(1-alpha))
 
-result$statistic
-result$p.value
+result$statistic # 1.691189
+result$p.value # 0.09080078
 
-result$p.value < alpha
+result$p.value < alpha # FALSE
 
 #Since the p-value is greater than alpha,we do not reject the null hypothesis.
 #Conclusion:There is not enough evidence to support the claim that average heart rate of this group differs from the previously reported average of 69 bpm.
 
 #Alternative solution.
 
-z.crit <- qnorm(alpha/2,lower.tail=FALSE)
-z.crit
+z.crit <- qnorm(alpha/2,lower.tail=FALSE) 
+z.crit # 1.959964
 
 #C(-infinity, -z.crit) U (z.crit, +infinity),z.test is not in the critical region,so we do not reject the null hypothesis.
