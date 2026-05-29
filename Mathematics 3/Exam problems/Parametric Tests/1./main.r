@@ -20,3 +20,10 @@ result$p.value < alpha
 
 #Since the p-value is greater than alpha,we do not reject the null hypothesis.
 #Conclusion:There is not enough evidence to support the claim that average heart rate of this group differs from the previously reported average of 69 bpm.
+
+#Alternative solution.
+
+z.crit <- qnorm(alpha/2,lower.tail=FALSE)
+z.crit
+
+#C(-infinity, -z.crit) U (z.crit, +infinity),z.test is not in the critical region,so we do not reject the null hypothesis.
