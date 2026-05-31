@@ -22,7 +22,7 @@ probs*100
 #merge classes
 
 pp1<-p1
-pp2<-peom(1,prob=0.8,lower.tail=FALSE)+dgeom(1,prob=0.8)
+pp2<-pgeom(1,prob=0.8,lower.tail=FALSE)+dgeom(1,prob=0.8)
 
 freq<-c(50,50)
 probs<-c(pp1,pp2)
