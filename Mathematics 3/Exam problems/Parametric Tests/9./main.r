@@ -21,3 +21,4 @@ result$p.value < alpha #FALSE
 
 #Since the p-value is greater than the significance level, we fail to reject the null hypothesis.
 #Conclusion: There is not enough evidence to conclude that the mean is different from 750.
+
