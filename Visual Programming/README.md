@@ -45,6 +45,12 @@ Pipeline за цртање — Алатки за форми (Елипса, Пр�
 
 Настанот pic_Paint се активира на секој повик на pic.Refresh() (предизвикан внатре во MouseMove). Ја црта формата на привремен Graphics контекст обезбеден од paint настанот. Ова не се запишува на canvas bitmap-от, па исчезнува на следното репејнтување — создавајќи мазен преглед при влечење.
 
+private void pic_Paint(object sender, PaintEventArgs e)
+{
+    if (isDrawing && selectedTool == 4)
+        e.Graphics.DrawRectangle(drawingPen, originX, originY, startX, startY);
+}
+
 
 
 MouseDown → го поставува isDrawing = true, го зачувува previousPoint
