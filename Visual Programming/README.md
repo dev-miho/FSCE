@@ -73,3 +73,5 @@ MouseUp   → го поставува isDrawing = false
 ---
 # 🎨 Paint Апликација — Изглед
 
+![diagram](Paint/4E45629C-C89D-4755-AFCD-99EC4CA30F1F.png)
+
