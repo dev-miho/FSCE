@@ -17,8 +17,6 @@ Predictive maintenance is critical in industrial environments to prevent pump fa
 ### Training & Validation Dynamics
 ![Training History](assets/training_history.png)
 
-### Test Confusion Matrix
-![Confusion Matrix](assets/confusion_matrix.png)
 
 ## 🚀 How to Run
 1. Install dependencies:
