@@ -124,7 +124,7 @@ for epoch in range(EPOCHS):
         print(f"Epoch {epoch+1:03d}/{EPOCHS} | Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f} | Val Acc: {val_acc*100:.2f}%")
 epochs_range = range(1, EPOCHS + 1)
 plt.figure(figsize=(14, 5))
-# График 1: Training vs Validation Loss
+
 plt.subplot(1, 2, 1)
 plt.plot(epochs_range, history["train_loss"], label="Train Loss", color="royalblue", linewidth=2)
 plt.plot(epochs_range, history["val_loss"], label="Val Loss", color="darkorange", linestyle="--", linewidth=2)
@@ -133,9 +133,9 @@ plt.xlabel("Epoch", fontsize=12)
 plt.ylabel("Loss", fontsize=12)
 plt.legend()
 plt.grid(True, linestyle=":", alpha=0.6)
-# График 2: Validation Accuracy
+
 plt.subplot(1, 2, 2)
-# Ги множиме со 100 за да бидат во проценти (%)
+
 plt.plot(epochs_range, [acc * 100 for acc in history["val_acc"]], label="Val Accuracy", color="seagreen", linewidth=2)
 plt.title("Validation Accuracy", fontsize=14)
 plt.xlabel("Epoch", fontsize=12)
